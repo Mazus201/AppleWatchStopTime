@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C107C04527F0F38600A7FE20 /* ForrestWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C107C04427F0F38600A7FE20 /* ForrestWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C107C04A27F0F38B00A7FE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C107C04927F0F38B00A7FE20 /* Assets.xcassets */; };
+		C107C05027F0F38B00A7FE20 /* ForrestWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C107C04F27F0F38B00A7FE20 /* ForrestWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C107C05527F0F38B00A7FE20 /* ForrestWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C107C05427F0F38B00A7FE20 /* ForrestWatchApp.swift */; };
+		C107C05727F0F38B00A7FE20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C107C05627F0F38B00A7FE20 /* ContentView.swift */; };
+		C107C05927F0F38B00A7FE20 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C107C05827F0F38B00A7FE20 /* NotificationController.swift */; };
+		C107C05B27F0F38B00A7FE20 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C107C05A27F0F38B00A7FE20 /* NotificationView.swift */; };
+		C107C05D27F0F38B00A7FE20 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C107C05C27F0F38B00A7FE20 /* ComplicationController.swift */; };
+		C107C05F27F0F38D00A7FE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C107C05E27F0F38D00A7FE20 /* Assets.xcassets */; };
+		C107C06227F0F38D00A7FE20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C107C06127F0F38D00A7FE20 /* Preview Assets.xcassets */; };
+		C107C06E27F0F38D00A7FE20 /* ForrestWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C107C06D27F0F38D00A7FE20 /* ForrestWatchTests.swift */; };
+		C107C07827F0F38D00A7FE20 /* ForrestWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C107C07727F0F38D00A7FE20 /* ForrestWatchUITests.swift */; };
+		C107C07A27F0F38D00A7FE20 /* ForrestWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C107C07927F0F38D00A7FE20 /* ForrestWatchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C107C04627F0F38600A7FE20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C107C03A27F0F38500A7FE20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C107C04327F0F38600A7FE20;
+			remoteInfo = "ForrestWatch WatchKit App";
+		};
+		C107C05127F0F38B00A7FE20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C107C03A27F0F38500A7FE20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C107C04E27F0F38B00A7FE20;
+			remoteInfo = "ForrestWatch WatchKit Extension";
+		};
+		C107C06A27F0F38D00A7FE20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C107C03A27F0F38500A7FE20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C107C04E27F0F38B00A7FE20;
+			remoteInfo = "ForrestWatch WatchKit Extension";
+		};
+		C107C07427F0F38D00A7FE20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C107C03A27F0F38500A7FE20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C107C04327F0F38600A7FE20;
+			remoteInfo = "ForrestWatch WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C107C08027F0F38D00A7FE20 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C107C05027F0F38B00A7FE20 /* ForrestWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C08427F0F38D00A7FE20 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C107C04527F0F38600A7FE20 /* ForrestWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C107C04027F0F38500A7FE20 /* ForrestWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForrestWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C107C04427F0F38600A7FE20 /* ForrestWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ForrestWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C107C04927F0F38B00A7FE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C107C04F27F0F38B00A7FE20 /* ForrestWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ForrestWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C107C05427F0F38B00A7FE20 /* ForrestWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForrestWatchApp.swift; sourceTree = "<group>"; };
+		C107C05627F0F38B00A7FE20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C107C05827F0F38B00A7FE20 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C107C05A27F0F38B00A7FE20 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		C107C05C27F0F38B00A7FE20 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C107C05E27F0F38D00A7FE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C107C06127F0F38D00A7FE20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C107C06327F0F38D00A7FE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C107C06427F0F38D00A7FE20 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C107C06927F0F38D00A7FE20 /* ForrestWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForrestWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C107C06D27F0F38D00A7FE20 /* ForrestWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForrestWatchTests.swift; sourceTree = "<group>"; };
+		C107C07327F0F38D00A7FE20 /* ForrestWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForrestWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C107C07727F0F38D00A7FE20 /* ForrestWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForrestWatchUITests.swift; sourceTree = "<group>"; };
+		C107C07927F0F38D00A7FE20 /* ForrestWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForrestWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C107C04C27F0F38B00A7FE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C06627F0F38D00A7FE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C07027F0F38D00A7FE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C107C03927F0F38500A7FE20 = {
+			isa = PBXGroup;
+			children = (
+				C107C04827F0F38600A7FE20 /* ForrestWatch WatchKit App */,
+				C107C05327F0F38B00A7FE20 /* ForrestWatch WatchKit Extension */,
+				C107C06C27F0F38D00A7FE20 /* ForrestWatchTests */,
+				C107C07627F0F38D00A7FE20 /* ForrestWatchUITests */,
+				C107C04127F0F38500A7FE20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C107C04127F0F38500A7FE20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C107C04027F0F38500A7FE20 /* ForrestWatch.app */,
+				C107C04427F0F38600A7FE20 /* ForrestWatch WatchKit App.app */,
+				C107C04F27F0F38B00A7FE20 /* ForrestWatch WatchKit Extension.appex */,
+				C107C06927F0F38D00A7FE20 /* ForrestWatchTests.xctest */,
+				C107C07327F0F38D00A7FE20 /* ForrestWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C107C04827F0F38600A7FE20 /* ForrestWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C107C04927F0F38B00A7FE20 /* Assets.xcassets */,
+			);
+			path = "ForrestWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		C107C05327F0F38B00A7FE20 /* ForrestWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C107C05427F0F38B00A7FE20 /* ForrestWatchApp.swift */,
+				C107C05627F0F38B00A7FE20 /* ContentView.swift */,
+				C107C05827F0F38B00A7FE20 /* NotificationController.swift */,
+				C107C05A27F0F38B00A7FE20 /* NotificationView.swift */,
+				C107C05C27F0F38B00A7FE20 /* ComplicationController.swift */,
+				C107C05E27F0F38D00A7FE20 /* Assets.xcassets */,
+				C107C06327F0F38D00A7FE20 /* Info.plist */,
+				C107C06427F0F38D00A7FE20 /* PushNotificationPayload.apns */,
+				C107C06027F0F38D00A7FE20 /* Preview Content */,
+			);
+			path = "ForrestWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C107C06027F0F38D00A7FE20 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C107C06127F0F38D00A7FE20 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C107C06C27F0F38D00A7FE20 /* ForrestWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				C107C06D27F0F38D00A7FE20 /* ForrestWatchTests.swift */,
+			);
+			path = ForrestWatchTests;
+			sourceTree = "<group>";
+		};
+		C107C07627F0F38D00A7FE20 /* ForrestWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C107C07727F0F38D00A7FE20 /* ForrestWatchUITests.swift */,
+				C107C07927F0F38D00A7FE20 /* ForrestWatchUITestsLaunchTests.swift */,
+			);
+			path = ForrestWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C107C03F27F0F38500A7FE20 /* ForrestWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C107C08527F0F38D00A7FE20 /* Build configuration list for PBXNativeTarget "ForrestWatch" */;
+			buildPhases = (
+				C107C03E27F0F38500A7FE20 /* Resources */,
+				C107C08427F0F38D00A7FE20 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C107C04727F0F38600A7FE20 /* PBXTargetDependency */,
+			);
+			name = ForrestWatch;
+			productName = ForrestWatch;
+			productReference = C107C04027F0F38500A7FE20 /* ForrestWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C107C04327F0F38600A7FE20 /* ForrestWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C107C08127F0F38D00A7FE20 /* Build configuration list for PBXNativeTarget "ForrestWatch WatchKit App" */;
+			buildPhases = (
+				C107C04227F0F38600A7FE20 /* Resources */,
+				C107C08027F0F38D00A7FE20 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C107C05227F0F38B00A7FE20 /* PBXTargetDependency */,
+			);
+			name = "ForrestWatch WatchKit App";
+			productName = "ForrestWatch WatchKit App";
+			productReference = C107C04427F0F38600A7FE20 /* ForrestWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C107C04E27F0F38B00A7FE20 /* ForrestWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C107C07D27F0F38D00A7FE20 /* Build configuration list for PBXNativeTarget "ForrestWatch WatchKit Extension" */;
+			buildPhases = (
+				C107C04B27F0F38B00A7FE20 /* Sources */,
+				C107C04C27F0F38B00A7FE20 /* Frameworks */,
+				C107C04D27F0F38B00A7FE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ForrestWatch WatchKit Extension";
+			productName = "ForrestWatch WatchKit Extension";
+			productReference = C107C04F27F0F38B00A7FE20 /* ForrestWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		C107C06827F0F38D00A7FE20 /* ForrestWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C107C08827F0F38D00A7FE20 /* Build configuration list for PBXNativeTarget "ForrestWatchTests" */;
+			buildPhases = (
+				C107C06527F0F38D00A7FE20 /* Sources */,
+				C107C06627F0F38D00A7FE20 /* Frameworks */,
+				C107C06727F0F38D00A7FE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C107C06B27F0F38D00A7FE20 /* PBXTargetDependency */,
+			);
+			name = ForrestWatchTests;
+			productName = ForrestWatchTests;
+			productReference = C107C06927F0F38D00A7FE20 /* ForrestWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C107C07227F0F38D00A7FE20 /* ForrestWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C107C08B27F0F38D00A7FE20 /* Build configuration list for PBXNativeTarget "ForrestWatchUITests" */;
+			buildPhases = (
+				C107C06F27F0F38D00A7FE20 /* Sources */,
+				C107C07027F0F38D00A7FE20 /* Frameworks */,
+				C107C07127F0F38D00A7FE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C107C07527F0F38D00A7FE20 /* PBXTargetDependency */,
+			);
+			name = ForrestWatchUITests;
+			productName = ForrestWatchUITests;
+			productReference = C107C07327F0F38D00A7FE20 /* ForrestWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C107C03A27F0F38500A7FE20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C107C03F27F0F38500A7FE20 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C107C04327F0F38600A7FE20 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C107C04E27F0F38B00A7FE20 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C107C06827F0F38D00A7FE20 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C107C04E27F0F38B00A7FE20;
+					};
+					C107C07227F0F38D00A7FE20 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C107C04327F0F38600A7FE20;
+					};
+				};
+			};
+			buildConfigurationList = C107C03D27F0F38500A7FE20 /* Build configuration list for PBXProject "ForrestWatch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C107C03927F0F38500A7FE20;
+			productRefGroup = C107C04127F0F38500A7FE20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C107C03F27F0F38500A7FE20 /* ForrestWatch */,
+				C107C04327F0F38600A7FE20 /* ForrestWatch WatchKit App */,
+				C107C04E27F0F38B00A7FE20 /* ForrestWatch WatchKit Extension */,
+				C107C06827F0F38D00A7FE20 /* ForrestWatchTests */,
+				C107C07227F0F38D00A7FE20 /* ForrestWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C107C03E27F0F38500A7FE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C04227F0F38600A7FE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C107C04A27F0F38B00A7FE20 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C04D27F0F38B00A7FE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C107C06227F0F38D00A7FE20 /* Preview Assets.xcassets in Resources */,
+				C107C05F27F0F38D00A7FE20 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C06727F0F38D00A7FE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C07127F0F38D00A7FE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C107C04B27F0F38B00A7FE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C107C05927F0F38B00A7FE20 /* NotificationController.swift in Sources */,
+				C107C05727F0F38B00A7FE20 /* ContentView.swift in Sources */,
+				C107C05D27F0F38B00A7FE20 /* ComplicationController.swift in Sources */,
+				C107C05527F0F38B00A7FE20 /* ForrestWatchApp.swift in Sources */,
+				C107C05B27F0F38B00A7FE20 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C06527F0F38D00A7FE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C107C06E27F0F38D00A7FE20 /* ForrestWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C06F27F0F38D00A7FE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C107C07A27F0F38D00A7FE20 /* ForrestWatchUITestsLaunchTests.swift in Sources */,
+				C107C07827F0F38D00A7FE20 /* ForrestWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C107C04727F0F38600A7FE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C107C04327F0F38600A7FE20 /* ForrestWatch WatchKit App */;
+			targetProxy = C107C04627F0F38600A7FE20 /* PBXContainerItemProxy */;
+		};
+		C107C05227F0F38B00A7FE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C107C04E27F0F38B00A7FE20 /* ForrestWatch WatchKit Extension */;
+			targetProxy = C107C05127F0F38B00A7FE20 /* PBXContainerItemProxy */;
+		};
+		C107C06B27F0F38D00A7FE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C107C04E27F0F38B00A7FE20 /* ForrestWatch WatchKit Extension */;
+			targetProxy = C107C06A27F0F38D00A7FE20 /* PBXContainerItemProxy */;
+		};
+		C107C07527F0F38D00A7FE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C107C04327F0F38600A7FE20 /* ForrestWatch WatchKit App */;
+			targetProxy = C107C07427F0F38D00A7FE20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C107C07B27F0F38D00A7FE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C107C07C27F0F38D00A7FE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C107C07E27F0F38D00A7FE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ForrestWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BMQGC273S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ForrestWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ForrestWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myTeam.ForrestWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		C107C07F27F0F38D00A7FE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ForrestWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BMQGC273S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ForrestWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ForrestWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myTeam.ForrestWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		C107C08227F0F38D00A7FE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BMQGC273S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = ForrestWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "ForrestWatch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myTeam.ForrestWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		C107C08327F0F38D00A7FE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BMQGC273S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = ForrestWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "ForrestWatch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myTeam.ForrestWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		C107C08627F0F38D00A7FE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BMQGC273S;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myTeam.ForrestWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C107C08727F0F38D00A7FE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BMQGC273S;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myTeam.ForrestWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C107C08927F0F38D00A7FE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BMQGC273S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myTeam.ForrestWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForrestWatch WatchKit Extension.appex/ForrestWatch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		C107C08A27F0F38D00A7FE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BMQGC273S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myTeam.ForrestWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForrestWatch WatchKit Extension.appex/ForrestWatch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		C107C08C27F0F38D00A7FE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BMQGC273S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myTeam.ForrestWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ForrestWatch WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		C107C08D27F0F38D00A7FE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BMQGC273S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myTeam.ForrestWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ForrestWatch WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C107C03D27F0F38500A7FE20 /* Build configuration list for PBXProject "ForrestWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C107C07B27F0F38D00A7FE20 /* Debug */,
+				C107C07C27F0F38D00A7FE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C107C07D27F0F38D00A7FE20 /* Build configuration list for PBXNativeTarget "ForrestWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C107C07E27F0F38D00A7FE20 /* Debug */,
+				C107C07F27F0F38D00A7FE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C107C08127F0F38D00A7FE20 /* Build configuration list for PBXNativeTarget "ForrestWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C107C08227F0F38D00A7FE20 /* Debug */,
+				C107C08327F0F38D00A7FE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C107C08527F0F38D00A7FE20 /* Build configuration list for PBXNativeTarget "ForrestWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C107C08627F0F38D00A7FE20 /* Debug */,
+				C107C08727F0F38D00A7FE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C107C08827F0F38D00A7FE20 /* Build configuration list for PBXNativeTarget "ForrestWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C107C08927F0F38D00A7FE20 /* Debug */,
+				C107C08A27F0F38D00A7FE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C107C08B27F0F38D00A7FE20 /* Build configuration list for PBXNativeTarget "ForrestWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C107C08C27F0F38D00A7FE20 /* Debug */,
+				C107C08D27F0F38D00A7FE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C107C03A27F0F38500A7FE20 /* Project object */;
+}
